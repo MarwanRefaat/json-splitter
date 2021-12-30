@@ -1,5 +1,4 @@
-"components": {
-  "schemas": {
+"schemas": {
     "ItemGetRequest": {
       "title": "ItemGetRequest",
       "required": [
@@ -5617,21 +5616,3 @@
       ]
     }
   },
-  "securitySchemes": {
-    "PLAID-CLIENT-ID": {
-      "type": "apiKey",
-      "name": "PLAID-CLIENT-ID",
-      "in": "header"
-    },
-    "PLAID-SECRET": {
-      "type": "apiKey",
-      "name": "PLAID-SECRET",
-      "in": "header"
-    },
-    "Plaid-Version": {
-      "type": "apiKey",
-      "name": "Plaid-Version",
-      "in": "header"
-    }
-  }
-}
